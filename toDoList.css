@@ -1,0 +1,188 @@
+body {
+    background-image: url(./background_Image/getty_638884198_366705.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6%;
+    font-size: 40px;
+    
+}
+
+header > div {
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+main {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    height: 100%;
+
+}
+
+.input_all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+}
+
+.input_str {
+    width: 65%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: none;
+}
+
+.input_button  {
+    margin-left: 5px;
+    border: 2px solid black; 
+    border-radius: 0.75em;
+    border: 1px solid rgba(37, 34, 34, 0.546);
+    box-shadow: 6px 6px rgb(34, 32, 32);
+ }
+   
+ .input_button:hover {
+    transform: translate(0, 0.15em);
+}
+ 
+.input_button:hover::before {
+    transform: translate3d(0, 0.5em, -1em);
+}
+ 
+.input_button:active {
+    transform: translate(0em, 0.25em);
+}
+ 
+.input_button:active::before {
+    transform: translate3d(0, 0, -1em);
+}
+
+.notes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 70%;
+}
+
+.note_box {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    min-width: 70%;
+    margin-top: 5px;
+}
+
+.note_box div {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+
+.note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: rgb(79, 13, 130);
+    min-width: 70%;
+    height: 30px;
+    margin: 5px;
+    border-bottom: 2px solid black;
+}
+
+.task_done {
+    text-decoration: line-through;
+}
+
+.note_button {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.button_done  {
+    border-radius: 0.75em;
+    border: 1px solid rgba(37, 34, 34, 0.546);
+    box-shadow: 6px 6px rgb(34, 32, 32);
+    background-image: linear-gradient(to bottom right, #86ee82, #23cd4e);
+}
+  
+.button_done:hover {
+    transform: translate(0, 0.15em);
+}
+
+.button_done:hover::before {
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+.button_done:active {
+   transform: translate(0em, 0.25em);
+}
+
+.button_done:active::before {
+   transform: translate3d(0, 0, -1em);
+}
+
+
+.button_del  {
+    border-radius: 0.75em;
+    background-image: linear-gradient(to bottom right, #ee82ee, #ff0000);
+    border: 1px solid rgba(37, 34, 34, 0.546);
+    box-shadow: 6px 6px rgb(34, 32, 32);
+}
+   
+.button_del:hover {
+    transform: translate(0, 0.15em);
+}
+ 
+.button_del:hover::before {
+    transform: translate3d(0, 0.5em, -1em);
+}
+ 
+.button_del:active {
+    transform: translate(0em, 0.25em);
+}
+ 
+.button_del:active::before {
+    transform: translate3d(0, 0, -1em);
+}
+
+footer{
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    height:min-content;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.trash_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+
